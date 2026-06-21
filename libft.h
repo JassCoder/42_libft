@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/20 16:28:41 by jsingh            #+#    #+#             */
-/*   Updated: 2026/06/20 18:47:57 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/06/21 17:50:46 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,10 @@ int	ft_isdigit(int ch);
 // ! strings formats
 
 size_t	ft_strlen(char *str);
+
+// ! memory formats
+
+void	*ft_memset(void *s, int c, size_t n);
 
 
 #endif
