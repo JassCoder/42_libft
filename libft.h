@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/20 16:28:41 by jsingh            #+#    #+#             */
-/*   Updated: 2026/06/21 22:22:26 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/06/23 01:13:03 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-// ! Characters formats
+// ! Part 1 - Libc functions
 
 int	ft_isalpha(int ch);
 int	ft_isalnum(int ch);
@@ -29,16 +29,24 @@ int	ft_tolower(int ch);
 int	ft_toupper(int ch);
 int	ft_isdigit(int ch);
 
-// ! strings formats
+// strings functions
 
 size_t	ft_strlen(char *str);
+char	*ft_strchr(const char *s, int c);
+int	ft_strncmp(const char *s1, const char *s2, size_t n);
 
-// ! memory formats
+// memory functions 
 
 void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
+int	ft_memcmp(const void *s1, const void *s2, size_t n);
+
+// ! Part 2 - Additional functions
+
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
 
 
 #endif
