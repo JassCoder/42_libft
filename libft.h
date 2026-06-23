@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/20 16:28:41 by jsingh            #+#    #+#             */
-/*   Updated: 2026/06/23 01:13:03 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/06/23 21:57:44 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,11 @@ void	ft_bzero(void *s, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 int	ft_memcmp(const void *s1, const void *s2, size_t n);
+
+// convertir functions
+
+int	ft_atoi(const char *nptr);
+
 
 // ! Part 2 - Additional functions
 
