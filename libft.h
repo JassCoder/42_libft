@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/20 16:28:41 by jsingh            #+#    #+#             */
-/*   Updated: 2026/06/25 20:35:14 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/06/27 01:40:43 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,12 @@ int	ft_isdigit(int ch);
 
 // strings functions
 
-size_t	ft_strlen(char *str);
+size_t	ft_strlen(const char *str);
 char	*ft_strchr(const char *s, int c);
 int	ft_strncmp(const char *s1, const char *s2, size_t n);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
-char	*ft_strnstr(const char *big, const char *little, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len);
 
 // memory functions 
 
