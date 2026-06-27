@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/20 16:28:41 by jsingh            #+#    #+#             */
-/*   Updated: 2026/06/27 18:21:05 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/06/27 21:36:03 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ char	*ft_strdup(const char *s1);
 
 // Conversion functions
 int		ft_atoi(const char *nptr);
-char	*ft_itoa(int n);  // ← Part 2? Actually Part 2 in subject!
+char	*ft_itoa(int n);
 
 //! =========================== PART 2 - ADDITIONAL FUNCTIONS ===========================
 
@@ -63,7 +63,7 @@ char	*ft_itoa(int n);  // ← Part 2? Actually Part 2 in subject!
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
-char	**ft_split(char const *s, char c);
+char	**ft_split(char const *s, char c);  // ✅ PROTOTYPE ONLY!
 
 // Iteration functions
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
