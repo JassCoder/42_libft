@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/06 19:22:23 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/06 19:33:18 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:40:35 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*current;
 	t_list	*tmp;
-	
+
 	if (!lst || !del)
 		return ;
 	current = *lst;

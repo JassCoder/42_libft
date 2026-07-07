@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/29 23:39:32 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/03 22:55:48 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:57:54 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	unsigned char	*destination;
 	unsigned char	*source;
-	size_t				i;
-	
+	size_t					i;
+
 	if (!dest && !src)
 		return (dest);
 	i = 0;

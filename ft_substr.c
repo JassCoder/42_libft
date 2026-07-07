@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/03 21:01:30 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/06 22:50:10 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:38:13 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	slen = ft_strlen(s);
 	if (start >= slen)
 		return (ft_strdup(""));
-	if (start + len  > slen)
+	if (start + len > slen)
 		clen = slen - start;
 	else
 		clen = len;

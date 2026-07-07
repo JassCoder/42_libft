@@ -6,12 +6,11 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/29 19:07:13 by jsingh            #+#    #+#             */
-/*   Updated: 2026/06/30 04:39:04 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:52:50 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -32,8 +31,7 @@ char	*ft_strrchr(const char *s, int c)
 	{
 		if (src[last] == check)
 			return ((char *)(src + last));
-	last--;
+		last--;
 	}
 	return (NULL);
 }
-

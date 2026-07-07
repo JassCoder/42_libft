@@ -6,21 +6,21 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/20 16:28:41 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/06 19:43:51 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:38:50 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-//! =========================== INCLUDES ===========================
+//! INCLUDES
 
 #include <stddef.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <limits.h>
 
-//! =========================== PART 1 - LIBC FUNCTIONS ===========================
+//! PART 1 - LIBC FUNCTIONS
 
 // funtions
 int		ft_isalpha(int ch);
@@ -79,4 +79,5 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
 #endif

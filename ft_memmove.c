@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/29 23:50:38 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/03 23:00:28 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:39:25 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		return (dest);
 	if ((src == dest) || (n == 0))
 		return(dest);
-	
 	if ((destination > source) && destination < (source + n))
 	{
 		i = n;

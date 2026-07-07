@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/05 20:11:47 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/05 21:06:05 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:40:56 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	unsigned int	i;
-	
+
 	if (!s || !f)
 		return ;
 	i = 0;

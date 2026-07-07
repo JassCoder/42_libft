@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/05 19:57:16 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/05 21:04:33 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:41:10 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	char	*result;
+	char		*result;
 	size_t		len;
 	size_t		index;
 

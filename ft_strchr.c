@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/29 18:49:50 by jsingh            #+#    #+#             */
-/*   Updated: 2026/06/30 04:56:07 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:58:55 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,6 @@ char	*ft_strchr(const char *s, int c)
 		i++;
 	}
 	if (check == '\0')
-		return ((char *)src + i);	
+		return ((char *)src + i);
 	return (NULL);
 }
-

@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/01 14:12:22 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/01 14:44:59 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:57:04 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strdup(const char *s)
 {
-	char	*dest;
+	char		*dest;
 	size_t		i;
 	size_t		len;
 
@@ -30,9 +30,8 @@ char	*ft_strdup(const char *s)
 	while (s[i])
 	{
 		dest[i] = s[i];
-		i++;	
+		i++;
 	}
 	dest[i] = '\0';
 	return (dest);
 }
-

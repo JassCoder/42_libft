@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/29 22:51:02 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/03 21:04:01 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:53:08 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_memset(void *s, int c, size_t n)
 	unsigned char	*container;
 	unsigned char	filler;
 	size_t			i;
-	
+
 	container = (unsigned char *)s;
 	filler = (unsigned char )c;
 	i = 0;

@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/01 13:28:31 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/06 22:48:18 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 21:00:15 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ void	*ft_calloc(size_t nmemb, size_t size)
 		return (NULL);
 	total = nmemb * size;
 	temp = malloc(total);
-
 	if (!temp)
 		return (NULL);
 	i = 0;

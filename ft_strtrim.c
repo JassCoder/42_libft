@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/04 20:37:27 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/05 23:31:18 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:55:53 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,15 @@
 
 static int	check_in_set(char c, char const *set)
 {
-    while (*set)
-    {
-        if (*set == c)
-            return (1);
-        set++;
-    }
-    return (0);
+	while (*set)
+	{
+		if (*set == c)
+			return (1);
+		set++;
+	}
+	return (0);
 }
+
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t		start;

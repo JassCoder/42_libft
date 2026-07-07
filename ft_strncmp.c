@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/30 05:27:00 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/03 22:58:55 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:59:10 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	unsigned char	*src1;
 	unsigned char	*src2;
-	size_t	i;
+	size_t				i;
 
 	src1 = (unsigned char *)s1;
 	src2 = (unsigned char *)s2;

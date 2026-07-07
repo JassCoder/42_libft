@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/30 04:35:32 by jsingh            #+#    #+#             */
-/*   Updated: 2026/06/30 04:56:13 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 20:40:26 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	unsigned char	*src;
 	unsigned char	check;
 	size_t			i;
-	
+
 	src = (unsigned char *)s;
 	check = (unsigned char )c;
 	i = 0;
