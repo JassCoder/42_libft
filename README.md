@@ -6,7 +6,7 @@ Libft is my own version of a bunch of standard C library functions, plus some ex
 
 - Part 1: 23 reimplemented libc functions
 - Part 2: 11 extra utility functions
-- Bonus: 9 linked list functions
+- Part 3: 9 linked list functions
 
 ## Instructions
 
@@ -19,7 +19,6 @@ make
 This builds `libft.a`.
 
 - `make` / `make all` - builds the mandatory part
-- `make bonus` - builds mandatory + bonus
 - `make clean` - removes .o files
 - `make fclean` - removes .o files and libft.a
 - `make re` - fclean then rebuild

@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/04 20:37:27 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/07 20:55:53 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 22:22:58 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,13 +42,13 @@ char	*ft_strtrim(char const *s1, char const *set)
 	if (!trimmed)
 		return (NULL);
 	i = 0;
-	while(start < end)
+	while (start < end)
 	{
 		trimmed[i] = s1[start];
 		i++;
 		start++;
 	}
-	trimmed[i] = '\0';	
+	trimmed[i] = '\0';
 	return (trimmed);
 }
 /*

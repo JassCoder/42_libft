@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/30 04:20:55 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/07 20:57:30 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 22:24:17 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned char	*src1;
 	unsigned char	*src2;
-	size_t					i;
+	size_t			i;
 
 	if (n == 0)
 		return (0);

@@ -6,7 +6,7 @@
 /*   By: jsingh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/02 23:11:48 by jsingh            #+#    #+#             */
-/*   Updated: 2026/07/05 01:59:07 by jsingh           ###   ########.fr       */
+/*   Updated: 2026/07/07 22:27:28 by jsingh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,19 +59,11 @@ static void	free_space(char **array, int i)
 	free(array);
 }
 
-char	**ft_split(char const *s, char c)
+static char	**fill_array(char const *s, char c, char **array, size_t token)
 {
-	char	**array;
-	size_t	token;
 	size_t	len;
 	size_t	i;
 
-	if (!s)
-		return (NULL);
-	token = count_token(s, c);
-	array = malloc((token + 1) * sizeof(char *));
-	if (!array)
-		return (NULL);
 	i = 0;
 	while (i < token)
 	{
@@ -90,6 +82,20 @@ char	**ft_split(char const *s, char c)
 	}
 	array[i] = NULL;
 	return (array);
+}
+
+char	**ft_split(char const *s, char c)
+{
+	char	**array;
+	size_t	token;
+
+	if (!s)
+		return (NULL);
+	token = count_token(s, c);
+	array = malloc((token + 1) * sizeof(char *));
+	if (!array)
+		return (NULL);
+	return (fill_array(s, c, array, token));
 }
 
 /*#include <stdio.h>   // ← ADD THIS!
